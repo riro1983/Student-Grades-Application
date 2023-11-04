@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Grades App</title>
+    <link rel="stylesheet" href="grades.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Student Grades App</h1>
+    <h2>View All Grades</h2>
+    <button id="viewAllGrades">View All Grades</button>
+
+    <h2>View Grade</h2>
+    <label>Enter Student Name</label>
+    <input type="text" id="studentName">
+    <button id="viewStudentGrade">View Grade</button>
+    <div id="studentGrade"></div>
+
+    <h2>Add Student Grade</h2>
+    <label>Enter Student Name</label>
+    <input type="text" id="inputName">
+    <label>Enter Student Grade</label>
+    <input type="text" id="inputGrade">
+    <button id="addStudentGrade">Post Grade</button>
+
+    <h2>Edit Student Grade</h2>
+    <label>Enter Student Name</label>
+    <input type="text" id="editName">
+    <label>Enter New Student Grade</label>
+    <input type="text" id="editGrade">
+    <button id="editStudentGrade">Edit Grade</button>
+
+    <h2>Delete Student Grade</h2>
+    <label>Enter Student Name</label>
+    <input type="text" id="delName">
+    <button id="delStudentGrade">Delete Grade</button>
+
+    <table class="viewAllTable">
+        <thead class ="theadTable">
+            <tr class="rowTable">
+                <th>Student</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+        </tbody>
+    </table>
+
+</body>
+<script src="grades.js"></script>
+</html> 
