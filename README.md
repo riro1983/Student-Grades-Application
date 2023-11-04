@@ -2,6 +2,7 @@
 Student Grades Application
 
 Description
+
 The Student Grades Application is a web-based tool designed to streamline the management of student performance data. It offers features to fetch, manipulate, and store student grades efficiently. The application integrates a public API for data retrieval and transitions to a Local API for long-term sustainability. It also provides organized database support for storing student grades and a user-friendly interface for seamless interaction.
 
 Features
