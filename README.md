@@ -14,7 +14,7 @@ Flask routing for user-friendly interactions, including keyword-based searches.
 
 Technologies Used
 
-HTML, JavaScript, CSS
-Flask
-SQLAlchemy
-RESTful APIs
+HTML, JavaScript, CSS,
+Flask,
+,SQLAlchemy
+,RESTful APIs
